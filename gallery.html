@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IZZAH'S GALLERY</title>
+    <style>
+	
+    body {margin:0;}
+    
+	header {
+  background-color: #7b3847;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  border-radius: 8px;
+  box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+	
+    nav {
+      background:  #d09fb2;
+      color: white;
+      text-align: center;
+      padding: 0px;
+      width:100%;
+      position: -webkit-sticky;
+      position: sticky;
+      border-radius: 8px;
+      box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    nav a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      padding: 13px 15px;
+      font-weight: bold;
+      font-family: georgia;
+    }
+
+    nav a:hover:not(.active) {
+      background-color: #7b3847;
+    }
+
+    .active {
+        background-color: #ac6b85;
+    }
+
+    div {
+        width: 48%;
+        padding: 2%;
+        margin: auto;
+    }
+
+
+    div.row {
+        width:max-content;
+        margin-left: 7%;
+    }
+
+
+    .column {
+        float: left;
+        width: 15%;
+        padding: 20px;
+    }
+    
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    div.row2 {
+        width:max-content;
+        margin-left: 9%;
+    }
+
+    .column2 {
+        float: left;
+        width: 18%;
+        padding: 20px;
+    }
+    
+
+    .row2::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    div.row3 {
+        width:max-content;
+        margin-left: 7%;
+    }
+
+    .column3 {
+        float: left;
+        width: 15%;
+        padding: 5px;
+    }
+    
+
+    .row3::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    div.row4 {
+        width:max-content;
+        margin-left: 1%;
+    }
+
+    .column4 {
+        float: left;
+        width: 15%;
+        padding: 120px;
+    }
+    
+
+    .row4::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    img {
+        border-radius: 8px;
+        box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    img:hover {
+        box-shadow: 0 3px 6px rgba(0,0,0,0,16),
+        0 3px 6px rgba(0,0,0,0,23);
+        transform: translate(0px, -8px)
+    }
+
+
+    video {
+        border: 20px; 
+        border-style: solid;
+        border-color: #eeeeee;
+        border-radius: 8px;
+        box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+    video:hover {
+        box-shadow: 0 3px 6px rgba(0,0,0,0,16),
+         0 3px 6px rgba(0,0,0,0,23);
+        transform: translate(0px, -8px)
+    }
+
+    button {
+	font-family: georgia;
+    background-color: #7b3847;
+    color: white;
+    padding: 8px 30px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+	margin-left: 87%;
+    margin-bottom: 2%;
+    }
+
+    .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+
+    .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    }
+
+    .button:hover span {
+     padding-right: 25px;
+    }
+
+    .button:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+
+    footer {
+    background-color: #7b3847;
+    padding: 0.2px;
+    text-align: center;
+    color: white;
+    }  
+
+</style>
+<body>
+    <body bgcolor="white">
+	
+        <header>
+            <h2>GALLERY</h2>
+        </header>
+        
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="biodata.html">Biodata</a>
+            <a href="education.html">Education</a>
+            <a href="experience.html">Experience</a>
+            <a href="family.html">Family</a>
+            <a class="active" href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact Me</a>
+        
+        </nav>
+
+        <div>
+        <h1 style="font-family: georgia; font-size: 300%; text-align:center; color:#7b3847; text-shadow: 2px 2px 4px #ac6b85;">Life Through My Lens </h1>
+        <p style="font-family: georgia; text-align: center;"> Take a moment to explore the visual collection of my photography skills. I hope these photos and videos will give you deeper understanding of who i am. ^^</p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img src="image/gallery1.png" width="100%;">
+            </div>
+
+            <div class="column">
+                <img src="image/gallery2.png" width="100%;">
+            </div>
+
+            <div class="column">
+                <img src="image/gallery3.png" width="100%;">
+            </div>
+
+            <div class="column">
+                <img src="image/gallery4.png" width="100%;">
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="column2">
+                <img src="image/gallery5.png" width="100%;">
+            </div>
+
+            <div class="column2">
+                <img src="image/gallery6.png" width="100%;">
+            </div>
+
+            <div class="column2">
+                <img src="image/gallery7.png" width="190%;">
+            </div>
+
+        </div>
+
+        <div class="row3">
+            <div class="column3">
+                <img src="image/gallery8.png" width="90%;">
+            </div>
+
+            <div class="column3">
+                <img src="image/gallery9.png" width="90%;">
+            </div>
+
+            <div class="column3">
+                <img src="image/gallery10.png" width="90%;">
+            </div>
+
+            <div class="column3">
+                <img src="image/gallery11.png" width="90%;">
+            </div>
+        </div>
+
+        <div class="row4">
+            <div class="column4">
+                <video width="140%" height="140%" controls>
+                    <source src="video/vid1.mp4" type=""video/mp4">
+                </video>
+            </div>
+
+            <div class="column4">
+                <video width="127%" height="127%" controls>
+                    <source src="video/vid2.mp4" type=""video/mp4">
+                </video>
+            </div>
+
+        </div>
+
+
+            <a href="contact.html">
+                <button class="button" style="vertical-align:middle"><span> Nearly Done </span></button></a>
+
+        <footer>
+            <p>&copy 2024 Nur Izzah. All rights reserved</p>
+          </footer>
+</body>
+</html>
